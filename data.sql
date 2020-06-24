@@ -1,9 +1,9 @@
-INSERT INTO `quiz`.`student` (`id`, `first_name`, `last_name`, `password`,`username`) VALUES ('0', 'student', 'name', '$2a$10$OEY1lDCNH/jEB8FQS/Jgwejry9.YhqEslkeDMtF5MQzFUrQiU/gra','user@gmail.com');
+INSERT INTO `quiz`.`student` (`id`, `first_name`, `last_name`, `password`,`username`) VALUES ('1', 'student', 'name', '$2a$10$OEY1lDCNH/jEB8FQS/Jgwejry9.YhqEslkeDMtF5MQzFUrQiU/gra','user@gmail.com');
 
 INSERT INTO `quiz`.`school` (`id`, `password`, `school_name`, `username`) VALUES ('1', '$2a$10$OEY1lDCNH/jEB8FQS/Jgwejry9.YhqEslkeDMtF5MQzFUrQiU/gra', 'school', 'school@gmail.com');
 
 
-INSERT INTO `quiz`.`quiz` (`id`, `quiz_name`) VALUES ('0', 'AngularJS Online Quiz');
+INSERT INTO `quiz`.`quiz` (`id`, `quiz_name`) VALUES ('1', 'AngularJS Online Quiz');
 
 
 
