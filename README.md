@@ -1,25 +1,27 @@
-# quizrepository
+# Quiz
 
-Steps to run project
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
-step-1:clone the project using git clone https://venugopalkalakota1997@bitbucket.org/venugopalkalakota1997/quizrepository.git  or https://github.com/venugopalkalakota1997/quizrepository.git
-step-2:unzip the project
-step-2:execute the schema.sql and data.sql using mySQL workbench 
-	Note:make sure that mysql username:root,password:password-1
-step-3:open project using ecllipse IDE 
-step-4:update maven project using ecllipse 
-step-5:run QuizApplication.java as java Application
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-step-6:open browser url:http://localhost:9091
-step-7:login with below details:
-	For attempting quiz
-		username:user@gmail.com
-		password:pwd
-		usertype:student
-	For creating quiz
-		username:school@gmail.com
-		password:pwd
-		usertype:school
-	or else Signup
-step-8:After logging in with respective user type and completing the task click badge(QUIZ) on navigation bar to go to home page 
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

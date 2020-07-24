@@ -1,0 +1,24 @@
+<div class="container">
+
+  <h5 class=" my-5">Quizs
+    <button *ngIf="isSchool" type="button" class="btn float-right" style="background-color: #1100ff" id="white"
+      (click)="creatQuiz()">
+      <i class="material-icons other_icon"> create </i> <span> Create quiz</span>
+    </button> </h5>
+</div>
+<div class="alert-danger container" *ngIf="!loggedIn">Login before Attempting quiz</div>
+<div class="container card mt-5" *ngFor="let quiz of quizlist">
+  <div class="card-body">
+    <div class="row">
+      <div class="col">
+        <div class="card-text mx-auto mr-5">
+          {{quiz.quizName}}
+          <button *ngIf="!isSchool" type="button" class="btn  float-right" style="background-color: #1100ff" id="white"
+            (click)="attemptquizbyid(quiz.id)">
+            <i class="material-icons other_icon"> launch </i> <span> Attempt quiz</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
