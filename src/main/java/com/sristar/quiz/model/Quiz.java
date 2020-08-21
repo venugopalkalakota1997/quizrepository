@@ -28,7 +28,7 @@ public class Quiz {
 	@Column(name = "quiz_name")
 	String quizName;
 	
-	@OneToMany(fetch = FetchType.LAZY,mappedBy = "quiz", cascade = CascadeType.ALL)
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "quiz", cascade = CascadeType.ALL)
 	List<Questions> questionsList;
 
 	public Quiz() {

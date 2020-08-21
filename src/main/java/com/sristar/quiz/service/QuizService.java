@@ -1,6 +1,5 @@
 package com.sristar.quiz.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +23,7 @@ public class QuizService {
 	
 
 	public ResponseTransfer createQuiz(Quiz quiz) throws QuizAlreadyExistsException {
-		// TODO Auto-generated method stub
-		//Questions q=new Questions();
-		
-
-		Quiz quiz1=quizRepository.findByName(quiz.getQuizName());
+				Quiz quiz1=quizRepository.findByName(quiz.getQuizName());
 		if (quiz1 != null) {
 			throw new QuizAlreadyExistsException();
 		}

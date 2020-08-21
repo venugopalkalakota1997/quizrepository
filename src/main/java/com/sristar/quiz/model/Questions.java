@@ -49,7 +49,7 @@ public class Questions {
 	String answer;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
-@JsonIgnore
+	@JsonIgnore
 	@JoinColumn(name = "fk_quiz_id")
 	Quiz quiz;
 
